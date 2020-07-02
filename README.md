@@ -1,2 +1,1 @@
 # Praktika
-# Praktika 2
