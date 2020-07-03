@@ -46,7 +46,4 @@ void MainWindow::on_pushButton_clicked()
     ui->tableWidget->setItem(0,1,it1m);
 }
 
-void MainWindow::on_lineEdit_inputRejected()
-{
 
-}
