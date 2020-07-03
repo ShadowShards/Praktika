@@ -20,6 +20,12 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pushButton_3_clicked();
+
+
+
+    void on_tableWidget_cellDoubleClicked(int row, int column);
+
 private:
     Ui::MainWindow *ui;
 };

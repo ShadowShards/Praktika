@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>tablewindow</class>
- <widget class="QDialog" name="tablewindow">
+ <class>SingleItem</class>
+ <widget class="QDialog" name="SingleItem">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1058</width>
-    <height>595</height>
+    <width>876</width>
+    <height>591</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout_2">
-   <item>
-    <widget class="QTableWidget" name="tableWidget"/>
-   </item>
-  </layout>
  </widget>
  <resources/>
  <connections/>

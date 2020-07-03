@@ -19,15 +19,18 @@ SOURCES += \
     book.cpp \
     main.cpp \
     mainwindow.cpp \
+    singleitem.cpp \
     tablewindow.cpp
 
 HEADERS += \
     Book.h \
     mainwindow.h \
+    singleitem.h \
     tablewindow.h
 
 FORMS += \
     mainwindow.ui \
+    singleitem.ui \
     tablewindow.ui
 
 # Default rules for deployment.
