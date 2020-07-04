@@ -5,6 +5,9 @@
 #include <QTableWidget>
 #include "Book.h"
 #include <QString>
+#include "Generation.h"
+#include "klick.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -31,7 +34,7 @@ void MainWindow::on_pushButton_2_clicked()
 //функци€ , обрабатывающа€ нажатие на кнопу
 void MainWindow::on_pushButton_clicked()
 {
-    //тестовое заполнение класса
+ //тестовое заполнение класса
     Book book = Book();
     book.setBookAutor("asdasd");
     book.setBookName("asdasd");
@@ -44,6 +47,33 @@ void MainWindow::on_pushButton_clicked()
 
     ui->tableWidget->setItem(0,0,itm);
     ui->tableWidget->setItem(0,1,it1m);
+
 }
 
+//функци€ определ€юща€ пол по нажатию кнопки
+//не работает!
+void MainWindow::on_radioButton_pressed()
+{
+    Generation generation = Generation();
+     Klick klick = Klick();
+     klick.setManWom1(1);
+     klick.setManWom2(2);
+     klick.setManWom3(3);
 
+     if(klick.getManWom1() == 1){
+       generation.GenerationMname();
+     }
+     if(klick.getManWom2() == 2){
+       generation.GenerationWname();
+     }
+     if(klick.getManWom3()== 3){
+       generation.GenerationMWname();
+     }
+     //   Generation generation = Generation();
+     //   QTableWidgetItem *itM = new QTableWidgetItem(generation.GenerationMname());
+     //   ui->tableWidget->setItem(0,0,itM);
+     //   QTableWidgetItem *itW = new QTableWidgetItem(generation.GenerationWname());
+     //  ui->tableWidget->setItem(0,0,itW);
+     //  QTableWidgetItem *itMW = new QTableWidgetItem(generation.GenerationMWname());
+     //   ui->tableWidget->setItem(0,0,itMW);
+}
