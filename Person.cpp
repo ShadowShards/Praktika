@@ -14,6 +14,7 @@ Person::Person()
      City = "Voronezh";
      Street = "Vladimira Nevskovko 11";
      Profession = "IT special";
+     Gender = "Man";
      Age= 22;
      Income = 200005;
 }
@@ -24,6 +25,7 @@ void Person::SetPname(const QString& Pname) { this->Pname = Pname; }
 void Person::SetCity(const QString& City) { this->City = City; }
 void Person::SetStreet(const QString& Street) { this->Street = Street; }
 void Person::SetProfession(const QString& Profession) { this->Profession = Profession; }
+void Person::SetGender(const QString& Gender) {this->Gender = Gender;}
 void Person::SetAge(const int& Age) { this->Age = Age; }
 void Person::SetIncome(const int& Income) { this->Income = Income; }
 
@@ -51,6 +53,10 @@ QString Person::getStreet()
 QString Person::getProfession()
 {
     return Profession;
+}
+QString Person::getGender()
+{
+    return Gender;
 }
 int Person::getAge()
 {

@@ -14,6 +14,7 @@ private:
     QString City;
     QString Street;
     QString Profession;
+    QString Gender;
     int Age;
     int Income;
     public:
@@ -24,6 +25,7 @@ private:
     void SetCity(const QString& City);
     void SetStreet(const QString& Street);
     void SetProfession(const QString& Profession);
+    void SetGender(const QString& Gender);
     void SetAge(const int& Age);
     void SetIncome(const int& Income);
     QString getName();
@@ -32,6 +34,7 @@ private:
     QString getCity();
     QString getStreet();
     QString getProfession();
+    QString getGender();
     int getAge();
     int getIncome();
     ~Person();
