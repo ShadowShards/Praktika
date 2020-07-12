@@ -16,13 +16,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Klick.cpp \
     book.cpp \
+    generator.cpp \
     main.cpp \
     mainwindow.cpp \
     tablewindow.cpp
 
 HEADERS += \
     Book.h \
+    Generation.h \
+    klick.h \
     mainwindow.h \
     tablewindow.h
 

@@ -47,25 +47,6 @@ QString Generation::GenerationSWname()
           return SWname;
 }
 
-QString Generation::GenerationSMWname()
-{
-    default_random_engine generator (chrono::system_clock::now().time_since_epoch().count());
-          uniform_int_distribution<int> distribution(1, 100);
-
-          set<int> n;
-          while (n.size() != 1) n.insert(distribution(generator));
-
-          string SName;
-          ifstream ifs("surenamewomanman.txt");
-          ofstream ofs("outfile.txt");
-          int i = 1;
-          while (getline(ifs, SName))
-              if (n.count(i++) > 0)
-                  ofs << SName << endl;
-          QString SMWname = QString::fromStdString(SName);
-          return SMWname;
-}
-
 QString Generation::GenerationMname()
 {
     default_random_engine generator (chrono::system_clock::now().time_since_epoch().count());
@@ -97,26 +78,6 @@ QString Generation::GenerationWname()
 
           string Name;
           ifstream ifs("namewoman.txt");
-          ofstream ofs("outfile.txt");
-          int i = 1;
-          while (getline(ifs, Name))
-              if (n.count(i++) > 0)
-                  ofs << Name << endl;
-          QString Wname = QString::fromStdString(Name);
-          return Wname;
-}
-
-QString Generation::GenerationMWname()
-{
-
-    default_random_engine generator (chrono::system_clock::now().time_since_epoch().count());
-          uniform_int_distribution<int> distribution(1, 100);
-
-          set<int> n;
-          while (n.size() != 1) n.insert(distribution(generator));
-
-          string Name;
-          ifstream ifs("WoManname.txt");
           ofstream ofs("outfile.txt");
           int i = 1;
           while (getline(ifs, Name))
@@ -165,25 +126,6 @@ QString Generation::GenerationPWname()
           return PWname;
 }
 
-QString Generation::GenerationPMWname()
-{
-
-    default_random_engine generator (chrono::system_clock::now().time_since_epoch().count());
-          uniform_int_distribution<int> distribution(1, 100);
-
-          set<int> n;
-          while (n.size() != 1) n.insert(distribution(generator));
-
-          string PName;
-          ifstream ifs("patronymicwomanman.txt");
-          ofstream ofs("outfile.txt");
-          int i = 1;
-          while (getline(ifs, PName))
-              if (n.count(i++) > 0)
-                  ofs << PName << endl;
-          QString PMWname = QString::fromStdString(PName);
-          return PMWname;
-}
 unsigned int Generation::GenerationAge()
 {
     srand(time(NULL));
