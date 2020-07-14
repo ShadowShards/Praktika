@@ -16,22 +16,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    book.cpp \
+    allperosn.cpp \
+    generator.cpp \
     main.cpp \
     mainwindow.cpp \
-    singleitem.cpp \
-    tablewindow.cpp
+    person.cpp
 
 HEADERS += \
-    Book.h \
-    mainwindow.h \
-    singleitem.h \
-    tablewindow.h
+    Generator.h \
+    Person.h \
+    allperosn.h \
+    mainwindow.h
 
 FORMS += \
-    mainwindow.ui \
-    singleitem.ui \
-    tablewindow.ui
+    allperosn.ui \
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
