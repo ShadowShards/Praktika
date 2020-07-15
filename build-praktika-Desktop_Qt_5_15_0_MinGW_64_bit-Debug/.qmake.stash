@@ -1,0 +1,23 @@
+QMAKE_LICHECK_TIMESTAMP = "Tue Jul 14"
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 1
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed \
+    E:/QTT/Tools/mingw810_64/x86_64-w64-mingw32/include
+QMAKE_CXX.LIBDIRS = \
+    E:/QTT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0 \
+    E:/QTT/Tools/mingw810_64/lib/gcc \
+    E:/QTT/Tools/mingw810_64/x86_64-w64-mingw32/lib \
+    E:/QTT/Tools/mingw810_64/lib
+QMAKE_LICHECK_TIMESTAMP = "Wed Jul 15"
