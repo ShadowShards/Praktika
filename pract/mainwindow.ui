@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>427</width>
+    <width>921</width>
     <height>603</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>421</width>
+      <width>911</width>
       <height>431</height>
      </rect>
     </property>
@@ -35,6 +35,11 @@
     </column>
     <column>
      <property name="text">
+      <string>Отчество</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
       <string>Пол</string>
      </property>
     </column>
@@ -43,11 +48,31 @@
       <string>Возраст</string>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>Новый столбец</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>З\п</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Город</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Улица</string>
+     </property>
+    </column>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>370</x>
       <y>510</y>
       <width>201</width>
       <height>23</height>
@@ -60,7 +85,7 @@
    <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>400</x>
       <y>460</y>
       <width>42</width>
       <height>22</height>
@@ -73,7 +98,7 @@
    <widget class="QSpinBox" name="spinBox_2">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>470</x>
       <y>460</y>
       <width>42</width>
       <height>22</height>
@@ -86,7 +111,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>280</x>
       <y>460</y>
       <width>91</width>
       <height>20</height>
@@ -99,7 +124,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>380</x>
       <y>460</y>
       <width>47</width>
       <height>21</height>
@@ -112,7 +137,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>450</x>
       <y>460</y>
       <width>47</width>
       <height>21</height>
@@ -125,7 +150,7 @@
    <widget class="QRadioButton" name="radioButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>350</x>
       <y>440</y>
       <width>81</width>
       <height>16</height>
@@ -138,7 +163,7 @@
    <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>420</x>
       <y>440</y>
       <width>82</width>
       <height>17</height>
@@ -151,7 +176,7 @@
    <widget class="QRadioButton" name="radioButton_3">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>490</x>
       <y>440</y>
       <width>82</width>
       <height>17</height>
@@ -164,7 +189,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>280</x>
       <y>430</y>
       <width>71</width>
       <height>31</height>
@@ -177,7 +202,7 @@
    <widget class="QSpinBox" name="spinBox_3">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>650</x>
       <y>490</y>
       <width>41</width>
       <height>21</height>
@@ -190,7 +215,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>280</x>
       <y>490</y>
       <width>371</width>
       <height>16</height>
@@ -200,26 +225,13 @@
      <string>Укажите количество людей о которых вы хотите вывести информацию</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>540</y>
-      <width>201</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Вывести список в отдельное окно</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>427</width>
+     <width>921</width>
      <height>21</height>
     </rect>
    </property>
