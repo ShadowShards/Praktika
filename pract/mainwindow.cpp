@@ -24,6 +24,14 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     Generation generate = Generation();
+
+    if (ui->spinBox->value()>ui->spinBox_2->value())
+    {
+        QMessageBox::warning(this,"eroor","incorect value");
+    }
+    else
+    {
+
     generate.setAgeGran(ui->spinBox->value(),ui->spinBox_2->value());
 
 
@@ -67,8 +75,7 @@ void MainWindow::on_pushButton_clicked()
         ui->tableWidget->setItem(i,7,itmCiti);
         ui->tableWidget->setItem(i,8,itmStreet);
     }
-
-
 }
 
+}
 
